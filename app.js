@@ -1,11 +1,9 @@
-// map object
 const myMap = {
 	coordinates: [],
 	businesses: [],
 	map: {},
 	markers: {},
 
-	// build leaflet map
 	buildMap() {
 		this.map = L.map('map', {
 		center: this.coordinates,
